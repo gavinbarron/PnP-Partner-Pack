@@ -280,6 +280,7 @@
     <Compile Include="Components\SessionADALCache.cs" />
     <Compile Include="Components\SystemWebCookieManager.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Filters\SharePointContextFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -324,6 +325,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Properties\PublishProfiles\intergen-pnp-partner - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\intergen-pnp-partner - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\Local-File-System.pubxml" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
